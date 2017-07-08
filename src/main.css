@@ -1,0 +1,34 @@
+.header{
+    display: flex;
+    height: 80px;
+    background-color: slateblue;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+.header h1{
+    color: #fff;
+}
+.topics{
+    padding: 0 10px;
+}
+.topic{
+    display: flex;
+    padding: 5px 0;
+}
+.topic>img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    flex-shrink: 0;
+}
+.topic>div{
+    flex-grow: 1;
+    overflow: hidden;
+    white-space:nowrap;
+}
+.topic h3{
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
