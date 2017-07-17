@@ -3,7 +3,6 @@ class Footer extends  React.Component{
     render(){
         return(
             <div>
-               33
             </div>
         )
     }

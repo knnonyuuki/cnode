@@ -1,10 +1,10 @@
 .header{
     display: flex;
     height: 80px;
-    background-color: slateblue;
+    background-color: #777777;
     justify-content: space-between;
     align-items: center;
-    padding: 0 10px;
+    padding: 0 15px;
 }
 .header h1{
     color: #fff;
@@ -16,19 +16,87 @@
     display: flex;
     padding: 5px 0;
 }
-.topic>img{
+.logo{
+    text-decoration: none;
+    color:white;
+}
+.timg{
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    border: 1px solid #ffffff;
+    border: 2px solid #eee;
+    margin-right: 10px;
     flex-shrink: 0;
 }
 .topic>div{
     flex-grow: 1;
     overflow: hidden;
-    white-space:nowrap;
+    white-space: nowrap;
 }
 .topic h3{
     text-overflow: ellipsis;
     overflow: hidden;
+}
+.topic .tab{
+    background-color: #cecece;
+    margin-right: 10px;
+    padding: 0 4px;
+    border-radius: 2px;
+    color: #fff;
+}
+
+.ant-back-top {
+    right: 40px !important;
+}
+
+.topic-desc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #777;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+.topic-wrap{
+    line-height: 1.7;
+}
+.topic-wrap img{
+    width: 100%;
+}
+.comments{
+    display: flex;
+}
+.comments>span{
+    flex-shrink: 0;
+    margin-right: 10px;
+}
+.comments-right{
+    flex-grow: 1;
+}
+.comments-header{
+    display: flex;
+    justify-content: space-between;
+}
+.messagefont p{
+    font-size: 14px;
+    border-bottom: 1px solid #cecece;
+    line-height: 1.5;
+    margin-right: 10px;
+}
+.messagefont>h1{
+    color:red;
+    font-size: 16px;
+}
+.noloading{
+    color: lawngreen;
+}
+.newtext label{
+    font-size: 16px;
+    color:#777777;
+    font-weight: 700;
+}
+.newtext {
+    width: 80%;
+    margin: 0 auto;
 }
